@@ -1,0 +1,11 @@
+use svdata;
+create table employee(
+id int,
+name varchar(45),
+salary int,
+city varchar(45),
+dept varchar(45)
+);
+desc employee;
+insert into employee values(1,'gowsii',80000,'karur','IT');
+select * from employee;
