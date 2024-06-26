@@ -1,0 +1,12 @@
+package com.dbs;
+
+public class TestEmp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		new EmployeeDAO().retrieveData();
+		Employee e=new Employee(200, "Sumit", "Delhi",67000,"Sales");
+		new EmployeeDAO().storeData(e);
+	}
+
+}
